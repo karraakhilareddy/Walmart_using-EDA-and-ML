@@ -1,0 +1,37 @@
+06-11-2023 07:02:27.53 - INFO - Started validation of input parameters...
+06-11-2023 07:02:27.53 - INFO - Completed validation of input parameters
+06-11-2023 07:02:27.53 - INFO - Started handling of duplicates... Method: "AUTO"
+06-11-2023 07:02:27.53 - DEBUG - Deletion of 15 duplicate(s) succeeded
+06-11-2023 07:02:27.53 - INFO - Completed handling of duplicates in 0.00302 seconds
+06-11-2023 07:02:27.53 - INFO - Started handling of missing values...
+06-11-2023 07:02:27.53 - INFO - Found a total of 12 missing value(s)
+06-11-2023 07:02:27.53 - INFO - Started handling of NUMERICAL missing values... Method: "AUTO"
+06-11-2023 07:02:27.56 - DEBUG - LINREG imputation of 1 value(s) succeeded for feature "Store"
+06-11-2023 07:02:27.56 - WARNING - LINREG imputation failed for feature "Temperature"
+06-11-2023 07:02:27.57 - DEBUG - LINREG imputation of 1 value(s) succeeded for feature "Fuel_Price"
+06-11-2023 07:02:27.59 - DEBUG - LINREG imputation of 4 value(s) succeeded for feature "CPI"
+06-11-2023 07:02:27.60 - DEBUG - LINREG imputation of 2 value(s) succeeded for feature "Unemployment"
+06-11-2023 07:02:27.61 - DEBUG - KNN imputation of 3 value(s) succeeded for feature "Temperature"
+06-11-2023 07:02:27.61 - DEBUG - KNN imputation of 1 value(s) succeeded for feature "Fuel_Price"
+06-11-2023 07:02:27.61 - INFO - Started handling of CATEGORICAL missing values... Method: "AUTO"
+06-11-2023 07:02:27.61 - INFO - Completed handling of missing values in 0.079254 seconds
+06-11-2023 07:02:27.61 - INFO - Started handling of outliers... Method: "WINZ"
+06-11-2023 07:02:27.64 - DEBUG - Outlier imputation of 34 value(s) succeeded for feature "Weekly_Sales"
+06-11-2023 07:02:27.64 - DEBUG - Outlier imputation of 5 value(s) succeeded for feature "Temperature"
+06-11-2023 07:02:27.65 - DEBUG - Outlier imputation of 2 value(s) succeeded for feature "Fuel_Price"
+06-11-2023 07:02:27.65 - DEBUG - Outlier imputation of 2 value(s) succeeded for feature "CPI"
+06-11-2023 07:02:28.06 - DEBUG - Outlier imputation of 481 value(s) succeeded for feature "Unemployment"
+06-11-2023 07:02:28.06 - INFO - Completed handling of outliers in 0.445408 seconds
+06-11-2023 07:02:28.06 - INFO - Started conversion of DATETIME features... Granularity: s
+06-11-2023 07:02:28.06 - INFO - Completed conversion of DATETIME features in 0.0004 seconds
+06-11-2023 07:02:28.06 - INFO - Started encoding categorical features... Method: "AUTO"
+06-11-2023 07:02:28.06 - INFO - Completed encoding of categorical features in 1e-06 seconds
+06-11-2023 07:02:28.06 - INFO - Started feature type conversion...
+06-11-2023 07:02:28.06 - DEBUG - Conversion to type INT succeeded for feature "Store"
+06-11-2023 07:02:28.07 - DEBUG - Conversion to type FLOAT succeeded for feature "Weekly_Sales"
+06-11-2023 07:02:28.08 - DEBUG - Conversion to type FLOAT succeeded for feature "Temperature"
+06-11-2023 07:02:28.09 - DEBUG - Conversion to type FLOAT succeeded for feature "Fuel_Price"
+06-11-2023 07:02:28.10 - DEBUG - Conversion to type FLOAT succeeded for feature "CPI"
+06-11-2023 07:02:28.10 - DEBUG - Conversion to type FLOAT succeeded for feature "Unemployment"
+06-11-2023 07:02:28.10 - INFO - Completed feature type conversion for 6 feature(s) in 0.045386 seconds
+06-11-2023 07:02:28.10 - INFO - AutoClean process completed in 0.578345 seconds
